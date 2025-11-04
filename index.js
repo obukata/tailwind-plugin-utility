@@ -1,6 +1,6 @@
 const plugin = require('tailwindcss/plugin');
 
-module.exports = plugin(function ({ addUtilities }) {
+module.exports = plugin(function ({ addUtilities, theme }) {
 
   addUtilities({
     // ✅ 1. text-yakuhan
