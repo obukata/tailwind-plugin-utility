@@ -1,5 +1,5 @@
 {
-  "name": "tailwind-plugin-utility",
+  "name": "@obukata/tailwind-plugin-utility",
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
