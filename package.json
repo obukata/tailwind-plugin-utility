@@ -1,0 +1,23 @@
+{
+  "name": "tailwind-plugin-utility",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://obukata@github.com/obukata/tailwind-plugin-utility.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/obukata/tailwind-plugin-utility/issues"
+  },
+  "homepage": "https://github.com/obukata/tailwind-plugin-utility#readme",
+  "description": "",
+  "peerDependencies": {
+    "tailwindcss": ">=4.1.16"
+  },
+  "devDependencies": {
+    "tailwindcss": "^4.1.16"
+  }
+}
