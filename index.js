@@ -16,5 +16,13 @@ module.exports = plugin(function ({ addUtilities }) {
     '.link-anchor': {
       '@apply': '-mt-[calc(var(--header-height,0)+var(--header-contents-gutter,0))] pt-[calc(var(--header-height,0)+var(--header-contents-gutter,0))] pointer-events-none',
     },
+
+    // ✅ 4. ページの高さが画面以下でも100vhで表示出来る
+    '.page-wrapper': {
+      '@apply': 'flex flex-col min-h-screen overflow-hidden',
+    },
+    '.main': {
+      '@apply': 'flex-1',
+    },
   });
 });
