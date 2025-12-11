@@ -34,6 +34,12 @@ module.exports = plugin(function ({ addUtilities, theme }) {
     '.main': {
       flex: '1 1 0%',
     },
+
+    // ✅ 5. ※を用いたインデント
+    '.text-indent': {
+      'text-indent': '-1em',
+      'padding-left': '1em'
+    }
   });
 
 });
