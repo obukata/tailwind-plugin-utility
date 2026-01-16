@@ -3,6 +3,11 @@ const plugin = require('tailwindcss/plugin');
 module.exports = plugin(function ({ addUtilities, theme }) {
 
   addUtilities({
+    ':where(:root)': {
+      'overflow-wrap': 'anywhere',
+      'line-break': 'strict',
+    },
+
     // ✅ 1. text-yakuhan
     '.text-yakuhan': {
       'font-feature-settings': '"palt"',
