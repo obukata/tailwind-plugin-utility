@@ -7,6 +7,9 @@ module.exports = plugin(function ({ addBase, addUtilities, theme }) {
       'overflow-wrap': 'anywhere',
       'line-break': 'strict',
     },
+    'dialog': {
+      'color': 'inherit',
+    }
   }),
 
   addUtilities({
