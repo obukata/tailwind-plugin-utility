@@ -39,7 +39,7 @@ module.exports = plugin(function ({ addBase, addUtilities, theme }) {
       display: 'flex',
       'flex-direction': 'column',
       'min-height': '100vh',
-      overflow: 'hidden',
+      overflow: 'clip',
     },
     '.main': {
       flex: '1 1 0%',
